@@ -12,7 +12,7 @@ router
             queryStr: ctx.querystring
         }
     })
-    .post('/apo/users',(ctx,next)=>{
+    .post('/api/users',(ctx,next)=>{
         ctx.body='这里是/users'
     })
     .all('/api/users/:id',(ctx,next)=>{
